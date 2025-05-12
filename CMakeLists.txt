@@ -6,7 +6,7 @@ if(MSVC)
     find_package(OpenGL REQUIRED)
 endif()
 
-find_package(SFML 2.6 REQUIRED COMPONENTS system window graphics)
+find_package(SFML 2.5 REQUIRED COMPONENTS system window graphics)
 
 add_executable(clock src/main.cpp)
 
